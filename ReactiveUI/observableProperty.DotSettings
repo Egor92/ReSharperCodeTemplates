@@ -1,0 +1,29 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Shortcut/@EntryValue">observableProperty</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Text/@EntryValue">#region $NAME$&#xD;
+&#xD;
+private readonly Subject&lt;$Unit$&gt; _$FIELDNAME$ = new Subject&lt;$Unit$&gt;();&#xD;
+&#xD;
+public IObservable&lt;$Unit$&gt; $NAME$&#xD;
+{&#xD;
+    get { return _$FIELDNAME$.AsObservable(); }&#xD;
+}&#xD;
+&#xD;
+#endregion</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Field/=NAME/InitialRange/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Field/=FIELDNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Field/=FIELDNAME/Expression/@EntryValue">decapitalize(NAME)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Field/=FIELDNAME/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Field/=FIELDNAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Field/=Unit/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Field/=Unit/InitialRange/@EntryValue">2</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0846613E1FDC684B8B1F4253E5F0FB03/Field/=Unit/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
