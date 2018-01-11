@@ -1,0 +1,23 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/Shortcut/@EntryValue">reactiveProperty</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/Text/@EntryValue">#region $PROPERTY$&#xD;
+&#xD;
+[Reactive]&#xD;
+public $TYPE$ $PROPERTY$ { get; set; }&#xD;
+&#xD;
+#endregion</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/Categories/=Imported_002007_002E11_002E2017/@EntryIndexedValue">Imported 07.11.2017</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/Categories/=Imported_00205_002F31_002F2016/@EntryIndexedValue">Imported 5/31/2016</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/Field/=TYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/Field/=TYPE/InitialRange/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/Field/=TYPE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/Field/=PROPERTY/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/Field/=PROPERTY/InitialRange/@EntryValue">2</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA1A5F3C8DEA934688FD89D3BD837D49/Field/=PROPERTY/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>
