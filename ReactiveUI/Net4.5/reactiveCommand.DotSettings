@@ -1,0 +1,61 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Shortcut/@EntryValue">reactiveCommand</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Text/@EntryValue">#region $Property$Command&#xD;
+&#xD;
+private ICommand _$Field$Command;&#xD;
+&#xD;
+public ICommand $Property$Command&#xD;
+{&#xD;
+    get { return _$Field$Command ?? (_$Field$Command = Get$Property$Command()); }&#xD;
+}&#xD;
+&#xD;
+private ICommand Get$Property$Command()&#xD;
+{&#xD;
+    return CreateDisposable(() =&gt;&#xD;
+    {&#xD;
+        var canExecuteObservable = GetCan$Property$Observable();&#xD;
+        return ReactiveCommand.Create($Property$, canExecuteObservable);&#xD;
+    });&#xD;
+}&#xD;
+&#xD;
+private IObservable&lt;bool&gt; GetCan$Property$Observable()&#xD;
+{&#xD;
+    var observables = new[]&#xD;
+    {&#xD;
+        this.ObservableForProperty(x =&gt; x.$DependentProperty$, false, false)&#xD;
+            .Select(_ =&gt; Unit.Default),&#xD;
+    };&#xD;
+    return observables.Merge()&#xD;
+                      .Select(_ =&gt; CanApply());&#xD;
+}&#xD;
+&#xD;
+private bool CanApply()&#xD;
+{&#xD;
+}&#xD;
+        &#xD;
+private void $Property$()&#xD;
+{&#xD;
+    $END$&#xD;
+}&#xD;
+&#xD;
+#endregion&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Categories/=Imported_002007_002E11_002E2017/@EntryIndexedValue">Imported 07.11.2017</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Categories/=Imported_002011_002F22_002F2016/@EntryIndexedValue">Imported 11/22/2016</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Categories/=Imported_00205_002F31_002F2016/@EntryIndexedValue">Imported 5/31/2016</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Field/=Property/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Field/=Property/InitialRange/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Field/=Property/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Field/=Field/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Field/=Field/Expression/@EntryValue">decapitalize(Property)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Field/=Field/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Field/=Field/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Field/=DependentProperty/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E1A5C660EDB08B438342D61524B2F099/Field/=DependentProperty/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
