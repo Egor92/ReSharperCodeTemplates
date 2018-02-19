@@ -2,9 +2,11 @@
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B02BBD99F0DF14482186BA585972876/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B02BBD99F0DF14482186BA585972876/Shortcut/@EntryValue">mc</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B02BBD99F0DF14482186BA585972876/Text/@EntryValue">xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"&#xD;
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"&#xD;
 mc:Ignorable="d"</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B02BBD99F0DF14482186BA585972876/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B02BBD99F0DF14482186BA585972876/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B02BBD99F0DF14482186BA585972876/Categories/=Imported_00202_002F19_002F2018/@EntryIndexedValue">Imported 2/19/2018</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B02BBD99F0DF14482186BA585972876/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B02BBD99F0DF14482186BA585972876/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B02BBD99F0DF14482186BA585972876/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String></wpf:ResourceDictionary>
