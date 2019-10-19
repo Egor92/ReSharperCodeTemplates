@@ -5,9 +5,9 @@
 public void $Action$_$Conditions$_$ExpectedOutcome$()&#xD;
 {&#xD;
     //Arrange&#xD;
-    $END$&#xD;
 &#xD;
     //Act&#xD;
+    $END$&#xD;
 &#xD;
     //Assert&#xD;
 }</s:String>
