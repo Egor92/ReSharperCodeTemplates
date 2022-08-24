@@ -1,6 +1,5 @@
-﻿namespace $rootnamespace$
+﻿namespace $rootnamespace$;
+
+internal interface $safeitemrootname$
 {
-    public interface $safeitemrootname$
-    {
-    }
 }

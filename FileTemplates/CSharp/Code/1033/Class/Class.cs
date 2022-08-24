@@ -1,6 +1,6 @@
-﻿namespace $rootnamespace$
+﻿namespace $rootnamespace$;
+
+internal class $safeitemrootname$
 {
-    public class $safeitemrootname$
-    {
-    }
 }
+
