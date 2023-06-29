@@ -1,0 +1,47 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Shortcut/@EntryValue">dependencyPropertyWithCallback</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Text/@EntryValue">#region $propertyName$&#xD;
+&#xD;
+public static readonly System.Windows.DependencyProperty $propertyName$Property =&#xD;
+  System.Windows.DependencyProperty.Register("$propertyName$", typeof ($propertyType$), typeof ($containingType$), new PropertyMetadata(default($propertyType$), On$propertyName$Changed));&#xD;
+&#xD;
+public $propertyType$ $propertyName$&#xD;
+{&#xD;
+  get { return ($propertyType$) GetValue($propertyName$Property); }&#xD;
+  set { SetValue($propertyName$Property, value); }&#xD;
+}&#xD;
+&#xD;
+private static void On$propertyName$Changed(DependencyObject sender, DependencyPropertyChangedEventArgs e)&#xD;
+{&#xD;
+    var $containingTypeTemp$ = ($containingType$)sender;&#xD;
+     $containingTypeTemp$.On$propertyName$Changed(($propertyType$)e.NewValue, ($propertyType$)e.OldValue);&#xD;
+}&#xD;
+&#xD;
+private void On$propertyName$Changed($propertyType$ new$propertyName$, $propertyType$ old$propertyName$)&#xD;
+{&#xD;
+    $END$&#xD;
+}&#xD;
+&#xD;
+#endregion</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Categories/=Imported_002025_002E03_002E2022/@EntryIndexedValue">Imported 25.03.2022</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Field/=propertyType/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Field/=propertyType/InitialRange/@EntryValue">2</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Field/=propertyType/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Field/=propertyName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Field/=propertyName/InitialRange/@EntryValue">4</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Field/=propertyName/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Field/=containingType/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Field/=containingType/Expression/@EntryValue">typeName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Field/=containingType/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Field/=containingType/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Field/=containingTypeTemp/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Field/=containingTypeTemp/Expression/@EntryValue">decapitalize(containingType)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Field/=containingTypeTemp/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Field/=containingTypeTemp/Order/@EntryValue">3</s:Int64></wpf:ResourceDictionary>
