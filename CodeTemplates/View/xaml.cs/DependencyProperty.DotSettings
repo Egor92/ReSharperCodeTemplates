@@ -4,8 +4,8 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Description/@EntryValue">Dependency property</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Text/@EntryValue">#region $propertyName$&#xD;
 &#xD;
-public static readonly System.Windows.DependencyProperty $propertyName$Property =&#xD;
-  System.Windows.DependencyProperty.Register("$propertyName$", typeof ($propertyType$), typeof ($containingType$), new PropertyMetadata(default($propertyType$)));&#xD;
+public static readonly DependencyProperty $propertyName$Property =&#xD;
+  DependencyProperty.Register(nameof($propertyName$), typeof ($propertyType$), typeof ($containingType$), new PropertyMetadata(default($propertyType$)));&#xD;
 &#xD;
 public $propertyType$ $propertyName$&#xD;
 {&#xD;
@@ -30,8 +30,4 @@ public $propertyType$ $propertyName$&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=containingType/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=containingType/Expression/@EntryValue">typeName()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=containingType/InitialRange/@EntryValue">-1</s:Int64>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=containingType/Order/@EntryValue">2</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=nameofProperty/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=nameofProperty/Expression/@EntryValue">nameOfEntity(propertyName)</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=nameofProperty/InitialRange/@EntryValue">-1</s:Int64>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=nameofProperty/Order/@EntryValue">3</s:Int64></wpf:ResourceDictionary>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=containingType/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>

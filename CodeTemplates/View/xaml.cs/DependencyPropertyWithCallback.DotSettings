@@ -3,8 +3,8 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Shortcut/@EntryValue">dependencyPropertyWithCallback</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0297CDB0408A0B458FACF4404696B557/Text/@EntryValue">#region $propertyName$&#xD;
 &#xD;
-public static readonly System.Windows.DependencyProperty $propertyName$Property =&#xD;
-  System.Windows.DependencyProperty.Register("$propertyName$", typeof ($propertyType$), typeof ($containingType$), new PropertyMetadata(default($propertyType$), On$propertyName$Changed));&#xD;
+public static readonly DependencyProperty $propertyName$Property =&#xD;
+  DependencyProperty.Register(nameof($propertyName$), typeof ($propertyType$), typeof ($containingType$), new PropertyMetadata(default($propertyType$), On$propertyName$Changed));&#xD;
 &#xD;
 public $propertyType$ $propertyName$&#xD;
 {&#xD;
